@@ -1,0 +1,38 @@
+h1, h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+table {
+    font-family:'Times New Roman', Times, serif;
+    border-collapse:collapse;
+    border-spacing: 25px;
+    width:max-content;
+    height: 540px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 5px solid black;
+}
+th {
+    background-color:chocolate;
+    color:white;
+    font-size: 22px;
+}
+td {
+    background-color:cornsilk;
+    font-size: 20px;
+}
+
+button {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:focus, button:active {
+    background-color: chartreuse;
+}
